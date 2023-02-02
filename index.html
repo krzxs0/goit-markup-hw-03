@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Студия</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -14,51 +18,59 @@
     />
   </head>
   <body>
-    <header>
-      <nav>
-        <a
-          href="./index.html"
-          class="list-style-none studio-logo-style logo text-decoration"
-          ><span class="web-logo-style">Web</span>Studio</a
-        >
-        <ul class="list-style-none">
-          <li>
-            <a href="" class="tabs-web-studio list-style-none text-decoration"
-              >Studio</a
-            >
-          </li>
-          <li>
+    <header class="header">
+      <div class="header-container">
+        <div>
+          <nav class="header-navigation">
             <a
-              href="./portfolio.html"
-              class="tabs-web-studio list-style-none text-decoration"
-              >Portfolio</a
+              href="./index.html"
+              class="list-style-none studio-logo-style logo text-decoration"
+              ><span class="web-logo-style">Web</span>Studio</a
             >
-          </li>
-          <li>
-            <a href="" class="tabs-web-studio list-style-none text-decoration"
-              >Contacts</a
-            >
-          </li>
-        </ul>
-      </nav>
-      <address class="font-style-normal">
-        <ul class="list-style-none">
-          <li>
-            <a
-              href="mailto:info@devstudio.com"
-              class="contacs-web-studio list-style-none text-decoration"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a
-              href="tel:+110001111111"
-              class="contacs-web-studio list-style-none text-decoration"
-              >+11 (000) 111-11-11</a
-            >
-          </li>
-        </ul>
-      </address>
+            <ul class="list-style-none header-list">
+              <li>
+                <a
+                  href=""
+                  class="tabs-web-studio list-style-none text-decoration box-header-text"
+                  >Studio</a
+                >
+              </li>
+              <li class="box-header-text">
+                <a
+                  href="./portfolio.html"
+                  class="tabs-web-studio list-style-none text-decoration box-header-text"
+                  >Portfolio</a
+                >
+              </li>
+              <li>
+                <a
+                  href=""
+                  class="tabs-web-studio list-style-none text-decoration box-header-text"
+                  >Contacts</a
+                >
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <address class="font-style-normal header-navigation">
+          <ul class="list-style-none header-list box-header-contacs">
+            <li>
+              <a
+                href="mailto:info@devstudio.com"
+                class="contacs-web-studio list-style-none text-decoration box-header-contacs header-mail"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a
+                href="tel:+110001111111"
+                class="contacs-web-studio list-style-none text-decoration box-header-contacs header-tel"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+          </ul>
+        </address>
+      </div>
     </header>
     <main>
       <section class="hero-section">
@@ -71,39 +83,41 @@
         </button>
       </section>
       <section>
-        <h2 class="visually-hidden">futures</h2>
+        <div class="futures-text">
+          <h2 class="visually-hidden">futures</h2>
 
-        <ul class="list-style-none">
-          <li>
-            <h3 class="futures-name">Strategy</h3>
-            <p class="futures-text">
-              Our goal is to identify the business problem to walk away with the
-              perfect and creative solution.
-            </p>
-          </li>
+          <ul class="list-style-none box-futures-text">
+            <li class="box-futures-item">
+              <h3 class="futures-name">Strategy</h3>
+              <p class="futures-text">
+                Our goal is to identify the business problem to walk away with
+                the perfect and creative solution.
+              </p>
+            </li>
 
-          <li>
-            <h3 class="futures-name">Punctuality</h3>
-            <p class="futures-text">
-              Bring the key message to the brand's audience for the best price
-              within the shortest possible time.
-            </p>
-          </li>
-          <li>
-            <h3 class="futures-name">Diligence</h3>
-            <p class="futures-text">
-              Research and confirm brands that present the strongest digital
-              growth opportunities and minimize risk.
-            </p>
-          </li>
-          <li>
-            <h3 class="futures-name">Technologies</h3>
-            <p class="futures-text">
-              Design practice focused on digital experiences. We bring forth a
-              deep passion for problem-solving.
-            </p>
-          </li>
-        </ul>
+            <li class="box-futures-item">
+              <h3 class="futures-name">Punctuality</h3>
+              <p class="futures-text">
+                Bring the key message to the brand's audience for the best price
+                within the shortest possible time.
+              </p>
+            </li>
+            <li class="box-futures-item">
+              <h3 class="futures-name">Diligence</h3>
+              <p class="futures-text">
+                Research and confirm brands that present the strongest digital
+                growth opportunities and minimize risk.
+              </p>
+            </li>
+            <li class="box-futures-item">
+              <h3 class="futures-name">Technologies</h3>
+              <p class="futures-text">
+                Design practice focused on digital experiences. We bring forth a
+                deep passion for problem-solving.
+              </p>
+            </li>
+          </ul>
+        </div>
       </section>
       <section>
         <h2 class="wawd">What are we doing</h2>

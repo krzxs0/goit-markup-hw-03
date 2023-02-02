@@ -22,12 +22,38 @@ body {
   letter-spacing: 0.03em;
   color: var(--tags-color);
   text-transform: uppercase;
+  margin-right: 76px;
 }
 .web-logo-style {
   color: #4d5ae5;
   text-transform: uppercase;
 }
-
+.header-mail {
+  margin-left: 332px;
+}
+.header {
+  height: 72px;
+  padding: 32px;
+}
+.box-header-text {
+  display: flex;
+}
+.box-header-contacs {
+  display: flex;
+}
+.header-container {
+  display: flex;
+  align-items: center;
+}
+.header-navigation {
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+.header-list {
+  display: flex;
+  gap: 30px;
+}
 .logo-footer {
   color: #ffffff;
   text-transform: uppercase;
@@ -38,6 +64,15 @@ body {
   line-height: calc(24 / 16);
   color: var(--tags-color);
   letter-spacing: 0.02em;
+}
+.box-futures-text {
+  display: flex;
+  margin: 0;
+  gap: 24px;
+  border: 2px solid red;
+  margin-bottom: 120px;
+}
+.futures-text {
 }
 .tabs-web-studio:hover,
 .tabs-web-studio:focus {
@@ -97,7 +132,19 @@ body {
   color: #ffffff;
   letter-spacing: 0.04em;
 }
-
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
 .button-h1:hover,
 .button-h1:focus {
   background: var(--hf-buttons-color);
