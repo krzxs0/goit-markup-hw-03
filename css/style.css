@@ -29,7 +29,6 @@ body {
   text-transform: uppercase;
 }
 .header-mail {
-  margin-left: 332px;
 }
 .header {
   height: 72px;
@@ -43,7 +42,13 @@ body {
 }
 .header-container {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+}
+.box-header-contacs-list {
+  display: flex;
+
+  margin-right: auto;
+  gap: 42px;
 }
 .header-navigation {
   display: flex;
@@ -63,6 +68,7 @@ body {
 .header-list {
   display: flex;
   gap: 30px;
+  margin-right: auto;
 }
 .logo-footer {
   color: #ffffff;
