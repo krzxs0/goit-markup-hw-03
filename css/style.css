@@ -56,8 +56,9 @@ body {
 }
 .box-btt-hero {
   align-self: center;
-  padding-left: 550px;
+  justify-content: center;
   margin-top: 48px;
+  display: flex;
 }
 .header-list {
   display: flex;
@@ -146,7 +147,7 @@ body {
   justify-content: space-evenly;
   gap: 24px;
 }
-.button-h1 {
+.button-hero-h {
   background: var(--buttons-color);
   width: 169px;
   height: 56px;
