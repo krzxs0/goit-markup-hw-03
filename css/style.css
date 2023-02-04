@@ -147,6 +147,9 @@ body {
   justify-content: space-evenly;
   gap: 24px;
 }
+.item-our-team-box {
+  padding-bottom: 120px;
+}
 .button-hero-h {
   background: var(--buttons-color);
   width: 169px;
