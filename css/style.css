@@ -83,9 +83,7 @@ body {
 }
 .box-futures-text {
   display: flex;
-  margin-left: 120px;
-  margin-right: 120px;
-  margin-bottom: 120px;
+  margin: 0 120px 120px 120px;
   gap: 24px;
 }
 .section-futures-web {
