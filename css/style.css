@@ -58,7 +58,6 @@ body {
   align-self: center;
   justify-content: center;
   margin-top: 48px;
-  display: flex;
 }
 .header-list {
   display: flex;
