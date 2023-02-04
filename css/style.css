@@ -83,7 +83,7 @@ body {
 }
 .box-futures-text {
   display: flex;
-
+  margin: 0 120px 120px 120px;
   gap: 24px;
 }
 .section-futures-web {
